@@ -8,6 +8,7 @@ print("Stopwatch started. Press Ctrl+C to stop.")
 
 try:
     while True:
+        print("Elapsed time: {:.2f} seconds".format(time.time() - start_time), end="\r")
         time.sleep(1)
 except KeyboardInterrupt:
     stop_time = time.time()
