@@ -14,4 +14,5 @@ except KeyboardInterrupt:
     stop_time = time.time()
     elapsed_time = stop_time - start_time
 
+print()
 print(int(elapsed_time), "seconds have passed.")
